@@ -1,2 +1,2 @@
-# 01-random-code-generator
- create an app that displays random famous quotes each time a button is clicked
+# Random Quote Generator
+ My first project for the Treehouse Full-Stack JavaScript Techdegree. It is an app that displays a quote at random each time the button is clicked.
