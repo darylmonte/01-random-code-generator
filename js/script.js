@@ -188,11 +188,11 @@ function printQuote() {
     // checks if the year property is present in the objects
     // and adds to the paragraph if it exist 
     if (randomQuote.year) {
-      quoteBody += `<span class="citation">retired ${randomQuote.year}</span>`;
+      quoteBody += `<span class="year">retired ${randomQuote.year}</span>`;
     }
 
   // closes the paragraph in the initial quoteBody variable
-  // the closing </p> was left out to insert the citation and year if they exist
+  // the closing </p> was left out to insert the team, citation and year if they exist
   quoteBody += `</p>`;
 
   // inserts the paragraph to the page
